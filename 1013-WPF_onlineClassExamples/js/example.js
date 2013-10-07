@@ -50,19 +50,21 @@
   Sales tax percentage Result
   Variables: Price of the item with tax Price of the item without tax Result to Print:
   “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
+   ClassExample_Discount
 */
-    var OriginalPrice =100;
-    var nameOfProduct ='ABC';
-    var percentDiscount=20;
-    var taxRate=10;
+
+    var OriginalPrice =100;  //initialize original price-- set to 100 for easy math
+    var nameOfProduct ='ABC';  //Initialize product name
+    var percentDiscount=20;    //Initialize discount rate
+    var taxRate=10;            //Initialize tax rate
 
 
 
-    var total =OriginalPrice* (1-percentDiscount/100);
+    var total =OriginalPrice* (1-percentDiscount/100);   //calculate the total with a set percentage discount
 //  var total = OriginalPrice - OriginalPrice*percentDiscount/100
-    var totalWithTax=taxRate/100*total;
+    var totalWithTax=taxRate/100*total;                   //calculate the total with tax from the total calculated above
 
 
-      console.log( 'Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.')
+    console.log( 'Your '+nameOfProduct+' was originally $'+OriginalPrice+', but after a X% discount, it is now $X without tax, and $X with tax.')     //console.log the values of the variables
 
 
