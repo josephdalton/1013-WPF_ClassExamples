@@ -42,9 +42,27 @@
 //
 //
 
+  /*Calculate the discounted price for an item. Create an expression that will calculate the
+  discounted price with and without sales tax. (It is acceptable for the result to have more
+  than two digits after the decimal. $345.896 for example.)
+  Givens: Original price Discount percentage (20% would be 20, for example)
+  Description of item
+  Sales tax percentage Result
+  Variables: Price of the item with tax Price of the item without tax Result to Print:
+  “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
+*/
+    var OriginalPrice =100;
+    var nameOfProduct ='ABC';
+    var percentDiscount=20;
+    var taxRate=10;
 
 
 
+    var total =OriginalPrice* (1-percentDiscount/100);
+//  var total = OriginalPrice - OriginalPrice*percentDiscount/100
+    var totalWithTax=taxRate/100*total;
 
+
+      console.log( 'Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.')
 
 
