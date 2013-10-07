@@ -65,6 +65,6 @@
     var totalWithTax=taxRate/100*total;                   //calculate the total with tax from the total calculated above
 
 
-    console.log( 'Your '+nameOfProduct+' was originally $'+OriginalPrice+', but after a X% discount, it is now $X without tax, and $X with tax.')     //console.log the values of the variables
+    console.log( 'Your '+nameOfProduct+' was originally $'+OriginalPrice+', but after a '+percentDiscount+'% discount, it is now $X without tax, and $X with tax.')     //console.log the values of the variables
 
 
