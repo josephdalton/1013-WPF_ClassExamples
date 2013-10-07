@@ -20,27 +20,27 @@
 
 
 
-//combining prompts and console.log
-
-var userData= prompt('How old are you?');                //return a number value
-//console.log(userData);
+////combining prompts and console.log
 //
-var userNumberOfSiblings=prompt('Number of siblings?');  //return number value
+//var userData= Number(prompt('How old are you?'));                //return a number value
+////console.log(userData);
+////
+//var userNumberOfSiblings=prompt('Number of siblings?');  //return number value
+////
+////
+////var productUserData = userData*userNumberOfSiblings;
+////console.log(userData*userNumberOfSiblings);
+////console.log(productUserData);
+//
+//var userFirstName = prompt('What is your first name?');
+//var userLastName  =prompt('What is your last name?');
+//console.log(userFirstName+'\t'+userLastName+' '+userData);
+//console.log(userData+userNumberOfSiblings);
+//
+//userData=userData*1;
+//userData=Number(userData);
 //
 //
-//var productUserData = userData*userNumberOfSiblings;
-//console.log(userData*userNumberOfSiblings);
-//console.log(productUserData);
-
-var userFirstName = prompt('What is your first name?');
-var userLastName  =prompt('What is your last name?');
-console.log(userFirstName+'\t'+userLastName+' '+userData);
-console.log(userData+userNumberOfSiblings);
-
-userData=userData*1;
-userData=Number(userData);
-
-
 
 
 
