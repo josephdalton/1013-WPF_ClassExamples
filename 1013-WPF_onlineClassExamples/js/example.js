@@ -1,70 +1,52 @@
-/**
- * Created with JetBrains WebStorm.
- * User: mdvn
- * Date: 10/7/13
- * Time: 6:37 PM
- * To change this template use File | Settings | File Templates.
- */
 
+//var shotsOffTarget =0;
+//var shotsOnTarget=1;
+//var possessionTime=2;
+//var shotTotal=3;
+//var result =4;
 
-//prompt('What color is your cat?');
-//console.log('a');
+var futbolArray =[];
+futbolArray[0]=prompt("How many off target shots did your team have today?(Keeper did not touch nor hit post)");
+futbolArray[1]=prompt("How many shots on target were there?(Keeper touched or hit post)");
+futbolArray[2]=prompt("How many minutes did your team have possession?");
+futbolArray[3]=Number(futbolArray[0])+Number(futbolArray[1]);
 
-// comments are
-/* Stuff not to be run*/
+//console.log(shotsOffTarget);
+//console.log(shotsOnTarget);
+//console.log(possessionTime);
 
-// Variables
-//var shoeBoxVariable;      //Declares a variable named shoeBoxVariable
-//shoeBoxVariable='Five';   //sets the variable shoeBoxVariable  equal to 5 (Uses 1 '=')
-//console.log(shoeBoxVariable);
-
-
-
-////combining prompts and console.log
+//console.log(result);
 //
-//var userData= Number(prompt('How old are you?'));                //return a number value
-////console.log(userData);
-////
-//var userNumberOfSiblings=prompt('Number of siblings?');  //return number value
-////
-////
-////var productUserData = userData*userNumberOfSiblings;
-////console.log(userData*userNumberOfSiblings);
-////console.log(productUserData);
+var shotTotal =
+    Number(futbolArray[0])+
+        Number(futbolArray[1]);
+console.log(shotTotal);
+
+
 //
-//var userFirstName = prompt('What is your first name?');
-//var userLastName  =prompt('What is your last name?');
-//console.log(userFirstName+'\t'+userLastName+' '+userData);
-//console.log(userData+userNumberOfSiblings);
+//result= (1-Number(shotTotal)/100) * Number(possessionTime);
 //
-//userData=userData*1;
-//userData=Number(userData);
+//var result = prompt("Your team spent "+parseInt(result)+"% of the possession time attacking the goal.")
+//console.log("Your team spent "+parseInt(result)+"% of the possession time attacking the goal.");
+//console.log(shotsOffTarget);
+//console.log(shotsOnTarget);
+//console.log(possessionTime);
+//console.log(shotTotal);
+//console.log(result);
 //
+//console.log("Your team scored "+goals+" goals during "+parseInt(result)+"% of attacking.");
+//var finalGoals = prompt("Your team scored "+goals+" goals during "+parseInt(result)+"% of attacking.");
+//var goals = [];
+//goals [0] = prompt("At what minute did your team score the first goal?");
+//goals [1] = prompt("At what minute did your team score the second goal?");
+//goals [2] = prompt("At what minute did your team score the third goal?");
+//goals [3] = prompt("At what minute did your team score the fourth goal?");
+//goals [4] = prompt("At what minute did your team score the fifth goal?");
+//goals [5] = prompt("At what minute did your team score the sixth goal?");
+//goals [6] = prompt("At what minute did your team score the seventh goal?");
+//goals [7] = prompt("At what minute did your team score the seventh goal?");
 //
-
-  /*Calculate the discounted price for an item. Create an expression that will calculate the
-  discounted price with and without sales tax. (It is acceptable for the result to have more
-  than two digits after the decimal. $345.896 for example.)
-  Givens: Original price Discount percentage (20% would be 20, for example)
-  Description of item
-  Sales tax percentage Result
-  Variables: Price of the item with tax Price of the item without tax Result to Print:
-  “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
-   ClassExample_Discount
-*/
-
-    var OriginalPrice =100;  //initialize original price-- set to 100 for easy math
-    var nameOfProduct ='ABC';  //Initialize product name
-    var percentDiscount=20;    //Initialize discount rate
-    var taxRate=10;            //Initialize tax rate
-
-
-
-    var total =OriginalPrice* (1-percentDiscount/100);   //calculate the total with a set percentage discount
-//  var total = OriginalPrice - OriginalPrice*percentDiscount/100
-    var totalWithTax=total+ taxRate/100*total;                   //calculate the total with tax from the total calculated above
-
-
-    console.log( 'Your '+nameOfProduct+' was originally $'+OriginalPrice+', but after a '+percentDiscount+'% discount, it is now $'+total+' without tax, and $'+totalWithTax+' with tax.')     //console.log the values of the variables
-
-
+//goals = 1;
+//var totalGoals= Number(goals[0])+Number(goals)[1]+Number(goals)[2]+Number(goals)[3]+Number(goals)[4]+Number(goals)[5]+Number(goals)[6];
+//console.log("Your team scored "+totalGoals+" goals during "+result+"% of attacking.");
+//var goals = prompt("Your team scored "+totalGoals+" goals during "+result+"% of attacking.");
