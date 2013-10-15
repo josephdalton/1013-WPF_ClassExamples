@@ -87,11 +87,13 @@ var temp=prompt('Temp to get from user') ;
    if(
    cOrF.toUpperCase()=='C'   //cel to fah
        ) {
-            console.log( temp*2.12);
+            console.log( temp*9/5 + 32);
    }
 else {
 
-       console.log( temp/2.12);
+       console.log( (temp-32)*5/9);
+
+
 
    }
 
