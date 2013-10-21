@@ -92,10 +92,7 @@ var temp=prompt('Temp to get from user') ;
 else {
 
        console.log( (temp-32)*5/9);
-
-
-
-   }
+ }
 
 
 
