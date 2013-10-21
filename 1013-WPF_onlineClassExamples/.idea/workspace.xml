@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="6ce1f89b-71ae-4810-878b-d49732e29cbf" time="1382392528718" ignored="false" />
     <file path="/example.js" changelist="6ce1f89b-71ae-4810-878b-d49732e29cbf" time="1381189946878" ignored="false" />
     <file path="/conditionalsNotes.js" changelist="6ce1f89b-71ae-4810-878b-d49732e29cbf" time="1381791293509" ignored="false" />
-    <file path="/functionsLoops.js" changelist="6ce1f89b-71ae-4810-878b-d49732e29cbf" time="1382394729427" ignored="false" />
+    <file path="/functionsLoops.js" changelist="6ce1f89b-71ae-4810-878b-d49732e29cbf" time="1382396533373" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="functionsLoops.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/functionsLoops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="561" selection-end="711" vertical-scroll-proportion="0.009831461">
+            <state line="121" column="53" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.6207865">
               <folding>
                 <element signature="e#0#157#0" expanded="false" />
               </folding>
@@ -350,7 +350,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/functionsLoops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="561" selection-end="711" vertical-scroll-proportion="0.009831461">
+        <state line="121" column="53" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.6207865">
           <folding>
             <element signature="e#0#157#0" expanded="false" />
           </folding>
